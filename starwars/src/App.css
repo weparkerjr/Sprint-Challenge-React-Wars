@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
 }
 .Header {
@@ -8,7 +11,11 @@
 /* write your parent styles in here for your App.js */
 
 .char-style {
+  
   border: 3px solid blue;
   height: 50px;
   width: 200px;
+  padding: 15px;
+
+
 }
